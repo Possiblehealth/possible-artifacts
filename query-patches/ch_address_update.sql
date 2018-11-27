@@ -1,0 +1,272 @@
+/*
+OBJECTIVE : TO UPDATE THE ADDRESS OF ALL PATIENTS AS PER THE NEW UPDATES FOR WARDS AND CITY,VILLAGE NAME
+CREATED BY:  SURUCHI DHUNGANA
+REVIEWED BY: DIPAK THAPA,LAXMAN MANANDHAR,RAMESH MAHAR
+DATE : 27TH NOVEMBER, 2018
+*/
+
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1=	1	WHERE	county_district=	'Dolakha'	AND	city_village=	'Susmachhemawati'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1	IN	(2,3,4);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1	IN	(1);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1=	4	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1	IN	(5,7);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1=	5	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1	IN	(6,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1	IN	(10);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1=	7	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1	IN	(11,13);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1=	8	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bocha'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bhimeshwar Municipality'	AND	address1=	9	WHERE	county_district=	'Dolakha'	AND	city_village=	'Lakuridada'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	1	WHERE	county_district=	'Dolakha'	AND	city_village=	'Syama'	AND	address1	IN	(1,2,3,4,5,6);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Syama'	AND	address1	IN	(7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jiri'	AND	address1	IN	(1);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jiri'	AND	address1	IN	(2,3);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	4	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jiri'	AND	address1	IN	(4);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	5	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jiri'	AND	address1	IN	(5);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jiri'	AND	address1	IN	(6);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	7	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jiri'	AND	address1	IN	(7);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	8	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jiri'	AND	address1	IN	(8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Jiri Municipality'	AND	address1=	9	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jiri'	AND	address1	IN	(10,11);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Kalinchowk Rural Municipality '	AND	address1=	1	WHERE	county_district=	'Dolakha'	AND	city_village=	'Kalingchok'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Kalinchowk Rural Municipality '	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Babare'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Kalinchowk Rural Municipality '	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Lamidada'	AND	address1	IN	(6,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Kalinchowk Rural Municipality '	AND	address1=	4	WHERE	county_district=	'Dolakha'	AND	city_village=	'Lamidada'	AND	address1	IN	(1,2,3,4,5);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Kalinchowk Rural Municipality '	AND	address1=	5	WHERE	county_district=	'Dolakha'	AND	city_village=	'Lapilang'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Kalinchowk Rural Municipality '	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Lapilang'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Kalinchowk Rural Municipality '	AND	address1=	7	WHERE	county_district=	'Dolakha'	AND	city_village=	'Sunakhani'	AND	address1	IN	(4,5,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Kalinchowk Rural Municipality '	AND	address1=	8	WHERE	county_district=	'Dolakha'	AND	city_village=	'Sunakhani'	AND	address1	IN	(1,2,3,6,7);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Kalinchowk Rural Municipality '	AND	address1=	9	WHERE	county_district=	'Dolakha'	AND	city_village=	'Sundrawati'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Gaurishankar Rural Municipality '	AND	address1=	1	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jugu'	AND	address1	IN	(1,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Gaurishankar Rural Municipality '	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jugu'	AND	address1	IN	(2,3,4,5,6);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Gaurishankar Rural Municipality '	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jhyaku'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Gaurishankar Rural Municipality '	AND	address1=	4	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jhyaku'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Gaurishankar Rural Municipality '	AND	address1=	5	WHERE	county_district=	'Dolakha'	AND	city_village=	'Suri'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Gaurishankar Rural Municipality '	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Chankhu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Gaurishankar Rural Municipality '	AND	address1=	7	WHERE	county_district=	'Dolakha'	AND	city_village=	'Marbu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Gaurishankar Rural Municipality '	AND	address1=	8	WHERE	county_district=	'Dolakha'	AND	city_village=	'Khare'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Gaurishankar Rural Municipality '	AND	address1=	9	WHERE	county_district=	'Dolakha'	AND	city_village=	'Gaurisankar'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Tamakoshi Rural Municipality '	AND	address1=	1	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bhirkot'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Tamakoshi Rural Municipality '	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Jhule'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Tamakoshi Rural Municipality '	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Japhe'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Tamakoshi Rural Municipality '	AND	address1=	4	WHERE	county_district=	'Dolakha'	AND	city_village=	'Malu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Tamakoshi Rural Municipality '	AND	address1=	5	WHERE	county_district=	'Dolakha'	AND	city_village=	'Sahare'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Tamakoshi Rural Municipality '	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Chyama'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Tamakoshi Rural Municipality '	AND	address1=	7	WHERE	county_district=	'Dolakha'	AND	city_village=	'Hawa'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Melung Rural Municipality '	AND	address1=	1	WHERE	county_district=	'Dolakha'	AND	city_village=	'Pawati'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Melung Rural Municipality '	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Ghangsukathokar'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Melung Rural Municipality '	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Ghangsukathokar'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Melung Rural Municipality '	AND	address1=	4	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bhedapu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Melung Rural Municipality '	AND	address1=	5	WHERE	county_district=	'Dolakha'	AND	city_village=	'Dandakharka'	AND	address1	IN	(2,3,4,5,6,8);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Melung Rural Municipality '	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Dandakharka'	AND	address1	IN	(1,7,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Melung Rural Municipality '	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Melung'	AND	address1	IN	(6,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Melung Rural Municipality '	AND	address1=	7	WHERE	county_district=	'Dolakha'	AND	city_village=	'Melung'	AND	address1	IN	(1,2,3,4,5,7);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bigu Rural Municipality '	AND	address1=	1	WHERE	county_district=	'Dolakha'	AND	city_village=	'Lamabagar'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bigu Rural Municipality '	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Orang'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bigu Rural Municipality '	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bulung'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bigu Rural Municipality '	AND	address1=	4	WHERE	county_district=	'Dolakha'	AND	city_village=	'Laduk'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bigu Rural Municipality '	AND	address1=	5	WHERE	county_district=	'Dolakha'	AND	city_village=	'Chilankha'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bigu Rural Municipality '	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Alampu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bigu Rural Municipality '	AND	address1=	7	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bigu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Bigu Rural Municipality '	AND	address1=	8	WHERE	county_district=	'Dolakha'	AND	city_village=	'Khopachagu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Baiteshwor Rural Municipality '	AND	address1=	1	WHERE	county_district=	'Dolakha'	AND	city_village=	'Gairimudi'	AND	address1	IN	(1,2,3,4,5);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Baiteshwor Rural Municipality '	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Gairimudi'	AND	address1	IN	(6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Baiteshwor Rural Municipality '	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Mirge'	AND	address1	IN	(1);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Baiteshwor Rural Municipality '	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Mirge'	AND	address1	IN	(2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Baiteshwor Rural Municipality '	AND	address1=	4	WHERE	county_district=	'Dolakha'	AND	city_village=	'Kabhre'	AND	address1	IN	(4,5,6,7);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Baiteshwor Rural Municipality '	AND	address1=	5	WHERE	county_district=	'Dolakha'	AND	city_village=	'Kabhre'	AND	address1	IN	(1,2,3,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Baiteshwor Rural Municipality '	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Namdu'	AND	address1	IN	(1,2,3,4,7);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Baiteshwor Rural Municipality '	AND	address1=	7	WHERE	county_district=	'Dolakha'	AND	city_village=	'Namdu'	AND	address1	IN	(5,6,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Baiteshwor Rural Municipality '	AND	address1=	8	WHERE	county_district=	'Dolakha'	AND	city_village=	'Chhetrapa'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Sailung Rural Municipality '	AND	address1=	1	WHERE	county_district=	'Dolakha'	AND	city_village=	'Dudhpokhari'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Sailung Rural Municipality '	AND	address1=	2	WHERE	county_district=	'Dolakha'	AND	city_village=	'Bhusaphedi'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Sailung Rural Municipality '	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Magapauwa'	AND	address1	IN	(1);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Sailung Rural Municipality '	AND	address1=	3	WHERE	county_district=	'Dolakha'	AND	city_village=	'Katakuti'	AND	address1	IN	(1,2,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Sailung Rural Municipality '	AND	address1=	4	WHERE	county_district=	'Dolakha'	AND	city_village=	'Magapauwa'	AND	address1	IN	(2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Sailung Rural Municipality '	AND	address1=	5	WHERE	county_district=	'Dolakha'	AND	city_village=	'Katakuti'	AND	address1	IN	(3,4,5,6,7);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Sailung Rural Municipality '	AND	address1=	6	WHERE	county_district=	'Dolakha'	AND	city_village=	'Phasku'	AND	address1	IN	(6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Sailung Rural Municipality '	AND	address1=	7	WHERE	county_district=	'Dolakha'	AND	city_village=	'Phasku'	AND	address1	IN	(1,2,3,4,5);
+UPDATE	person_address	SET	county_district=	'Dolakha'	AND	city_village=	'Sailung Rural Municipality '	AND	address1=	8	WHERE	county_district=	'Dolakha'	AND	city_village=	'Sailungeswor'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+
+
+
+
+
+
+
+
+
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	1	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Manthali'	AND	address1	IN	(1,2);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	2	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Manthali'	AND	address1	IN	(3,4);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	3	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Manthali'	AND	address1	IN	(5,6);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	4	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Manthali'	AND	address1	IN	(7,8);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	5	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Manthali'	AND	address1	IN	(9,10);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	6	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Manthali'	AND	address1	IN	(11,12);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	7	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Manthali'	AND	address1	IN	(13,14);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	8	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Manthali'	AND	address1	IN	(15,16);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	9	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Puranagau'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	10	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Chanakhu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	11	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Gelu'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	12	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Gelu'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	13	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Phulasi'	AND	address1	IN	(1,2,3,4,5);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Manthali Municipality'	AND	address1=	14	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Phulasi'	AND	address1	IN	(6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap Municipality'	AND	address1=	1	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Gothgau'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap Municipality'	AND	address1=	2	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Deurali'	AND	address1	IN	(2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap Municipality'	AND	address1=	3	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Saghutar'	AND	address1	IN	(3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap Municipality'	AND	address1=	4	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Himganga'	AND	address1	IN	(4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap Municipality'	AND	address1=	5	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Rampur'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap Municipality'	AND	address1=	6	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap'	AND	address1	IN	(1,2,3);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap Municipality'	AND	address1=	7	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap'	AND	address1	IN	(7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap Municipality'	AND	address1=	8	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap'	AND	address1	IN	(4,5);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap Municipality'	AND	address1=	9	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Ramechhap'	AND	address1	IN	(6);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Umakunda Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Gumdel'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Umakunda Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Bamtibhandar'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Umakunda Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Kubukasthali'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Umakunda Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Pritee'	AND	address1	IN	(1,4,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Umakunda Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Pritee'	AND	address1	IN	(2,3,5,6);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Umakunda Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Guptesor'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Umakunda Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Bhujee'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Rakathum'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Majuwa'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Bhirpani'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Pakarbas'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Pakarbas'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Makadum'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi Rural Municipality'	AND	address1=	8	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Bhadaure'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Khadadevi Rural Municipality'	AND	address1=	9	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Pinkhuri'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Gokulganga Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Chuchure'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Gokulganga Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Those'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Gokulganga Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Rasanalu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Gokulganga Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Betali'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Gokulganga Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Namadi'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Gokulganga Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Farpu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Doramba Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Dadhuwa'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Doramba Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Doramba'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Doramba Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Tokarpur'	AND	address1	IN	(1,2,3,4,5,6,7);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Doramba Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Goswara'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Doramba Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Tokarpur'	AND	address1	IN	(8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Doramba Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Gunsibhadaure'	AND	address1	IN	(8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Doramba Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Lakhanpur'	AND	address1	IN	(1,2,3,4,5);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Doramba Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Lakhanpur'	AND	address1	IN	(6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Likhu Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Duragau'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Likhu Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Saipu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Likhu Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Bijulikot'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Likhu Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Bijulikot'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Likhu Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Nagadaha'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Likhu Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Khimti'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Likhu Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Tilpung'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Sunapati Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Gunsibhadaure'	AND	address1	IN	(1,2,3,4,5,6,7);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Sunapati Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Dimipokhari'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Sunapati Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Hiledevi'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Sunapati Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Bethan'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Ramechhap'	AND	city_village=	'Sunapati Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Ramechhap'	AND	city_village=	'Khaniyapani'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+																				
+																				
+
+
+
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Syaulebazar'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Batase'	AND	address1	IN	(1,2,3,4,5);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Batase'	AND	address1	IN	(6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Chaurata'	AND	address1	IN	(5,6);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Chaurata'	AND	address1	IN	(1,4,7);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Chaurata'	AND	address1	IN	(1,2);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Chaurata'	AND	address1	IN	(8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	8	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Irkhu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	9	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Kadambas'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	10	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Sangachok'	AND	address1	IN	(1,2,7);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	11	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Sangachok'	AND	address1	IN	(5,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	12	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Sangachok'	AND	address1	IN	(3,4,6);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	13	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thulosirubari'	AND	address1	IN	(1,2,3,4,5,6);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Chautara Sangachokgadhi Municipality'	AND	address1=	14	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thulosirubari'	AND	address1	IN	(7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise Rular Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Ghorthali'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise Rular Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Karthali'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise Rular Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise Rular Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise Rular Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Gati'	AND	address1	IN	(1,2,3,4,5);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise Rular Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Gati'	AND	address1	IN	(6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise Rular Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Ghumthang'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise Rular Municipality'	AND	address1=	8	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Maneswor'	AND	address1	IN	(2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Barhabise Rular Municipality'	AND	address1=	9	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Ramche'	AND	address1	IN	(3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotechaur'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotechaur'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Haibung'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thakani'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Duwachaur'	AND	address1	IN	(3,4);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Duwachaur'	AND	address1	IN	(1,2);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi'	AND	address1	IN	(1,2,3,4,5,6);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	8	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi'	AND	address1	IN	(7,89);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	9	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi'	AND	address1	IN	(14,15);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	10	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi'	AND	address1	IN	(12,13);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	11	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi'	AND	address1	IN	(5,7);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	12	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi'	AND	address1	IN	(8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi Municipality'	AND	address1=	13	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Melamchi'	AND	address1	IN	(10,11);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Simpalkabhre'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Kunchok'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Kunchok'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Nawalpur'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Badegau'	AND	address1	IN	(4, 6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Badegau'	AND	address1	IN	(1,2,3,5);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Sipapokhare'	AND	address1	IN	(1,4,5,6,7,8);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	8	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Sipapokhare'	AND	address1	IN	(2,3,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	9	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotasipa'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	10	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotesipa'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	11	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhimatar'	AND	address1	IN	(1,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Indrawati Rural Municipality'	AND	address1=	12	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhimatar'	AND	address1	IN	(2,3,4,5,6,7,8);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Jugal Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Selang'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Jugal Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Golche'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Jugal Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Gumba'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Jugal Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Pangtang'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Jugal Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Baramchi'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Jugal Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Hagam'	AND	address1	IN	(1,2,3,4,5);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Jugal Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Hagam'	AND	address1	IN	(6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Panchpokhari Thangpal Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Banskharka'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Panchpokhari Thangpal Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Baruwa'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Panchpokhari Thangpal Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotang'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Panchpokhari Thangpal Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thangpalkot'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Panchpokhari Thangpal Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Gunsa'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Panchpokhari Thangpal Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thampadhap'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Panchpokhari Thangpal Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotenamlang'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Panchpokhari Thangpal Rural Municipality'	AND	address1=	8	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Lagarche'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Balephi Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Jalbire'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Balephi Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Fulpingkot'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Balephi Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Fulpingkot'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Balephi Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Fulpingdandagau'	AND	address1	IN	(1,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Balephi Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Fulpingdandagau'	AND	address1	IN	(5,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Balephi Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Mangkha'	AND	address1	IN	(7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Balephi Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Mangkha'	AND	address1	IN	(3,4,5,6);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Balephi Rural Municipality'	AND	address1=	8	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Mangkha'	AND	address1	IN	(1,2);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotekoshi Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Listikot'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotekoshi Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Tatopani'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotekoshi Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Tatopani'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotekoshi Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Fulpingkatti'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Bhotekoshi Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Marming'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Linsankhu Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thulodhading'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Linsankhu Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Lisankhu'	AND	address1	IN	(1,5,6,7);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Linsankhu Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Lisankhu'	AND	address1	IN	(6,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Linsankhu Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Atarpur'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Linsankhu Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Jethal'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Linsankhu Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Petaku'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Linsankhu Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thulopakhar'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Sunkoshi Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thokarpa'	AND	address1	IN	(1,2,3,4);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Sunkoshi Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thokarpa'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Sunkoshi Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Kalika'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Sunkoshi Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Yamunadanda'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Sunkoshi Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Sunkhani'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Sunkoshi Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Thumpakhar'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Sunkoshi Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Pangtang'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Helmabu Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Helumbu'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Helmabu Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Kiwool'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Helmabu Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Palchok'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Helmabu Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Mahankal'	AND	address1	IN	(1,2,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Helmabu Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Mahankal'	AND	address1	IN	(3,4,5,6,7);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Helmabu Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Ichok'	AND	address1	IN	(1,2,3,4,5);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Helmabu Rural Municipality'	AND	address1=	7	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Ichok'	AND	address1	IN	(6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Tripurasundari Rural Municipality'	AND	address1=	1	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Ghorthali'	AND	address1	IN	(5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Tripurasundari Rural Municipality'	AND	address1=	2	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Chokati'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Tripurasundari Rural Municipality'	AND	address1=	3	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Dhuskun'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Tripurasundari Rural Municipality'	AND	address1=	4	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Piskar'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Tripurasundari Rural Municipality'	AND	address1=	5	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Tauthali'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+UPDATE	person_address	SET	county_district=	'Sindhupalchowk'	AND	city_village=	'Tripurasundari Rural Municipality'	AND	address1=	6	WHERE	county_district=	'Sindhupalchowk'	AND	city_village=	'Tekanpur'	AND	address1	IN	(1,2,3,4,5,6,7,8,9);
+
+
+
+
+
