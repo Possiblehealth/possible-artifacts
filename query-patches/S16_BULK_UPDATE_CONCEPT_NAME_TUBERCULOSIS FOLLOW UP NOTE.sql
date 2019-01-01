@@ -47,7 +47,7 @@ UPDATE concept_name SET NAME= 'Lost to Follow up' WHERE concept_name_type='FULLY
 UPDATE concept_name SET NAME= 'Not evaluated' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Not evaluated';
 UPDATE concept_name SET NAME= 'TB FU-Treatment outcome' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Tuberculosis, Treatment Outcome';
 UPDATE concept_name SET NAME= 'TB F/U-Conversion and Outcome report' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Tuberculosis F/U, Conversion and Outcome report';
-UPDATE concept_name SET NAME= 'Tuberculosis Follow(TB FU) up note' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Tuberculosis Follow up note';
+UPDATE concept_name SET NAME= 'Tuberculosis follow(TB FU) up note' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Tuberculosis Follow up note';
 
 
 UPDATE concept_name SET NAME= '2 months' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = '2 months' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
@@ -91,4 +91,4 @@ UPDATE concept_name SET NAME= 'Lost to Follow up' WHERE concept_name_type='SHORT
 UPDATE concept_name SET NAME= 'Not evaluated' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Not evaluated' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
 UPDATE concept_name SET NAME= 'Treatment outcome' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'TB FU-Treatment outcome' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
 UPDATE concept_name SET NAME= 'Conversion and Outcome report' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'TB F/U-Conversion and Outcome report' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'Tuberculosis Follow up note' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Tuberculosis Follow(TB FU) up note' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
+UPDATE concept_name SET NAME= 'Tuberculosis follow up note' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Tuberculosis follow(TB FU) up note' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
