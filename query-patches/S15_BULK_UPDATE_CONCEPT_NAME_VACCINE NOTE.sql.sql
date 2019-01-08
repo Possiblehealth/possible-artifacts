@@ -1,5 +1,5 @@
 /*
-OBJECTIVE : TO UPDATE THE CONCEPT NAMES FOR IMAM PROGRAM TEMPLATE TO MAKE THEM STANDARD NAMES
+OBJECTIVE : TO UPDATE THE CONCEPT NAMES FOR VACCINE PROGRAM TEMPLATE TO MAKE THEM STANDARD NAMES
 CREATED BY:  DIWASH
 REVIEWED BY: DIPAK,SURUCHI,LAXMAN
 DATE : 20TH NOVEMBER, 2018
@@ -46,42 +46,42 @@ UPDATE concept_name SET NAME= 'Vaccine-Hepatitis B' WHERE concept_name_type='FUL
 UPDATE concept_name SET NAME= 'Vaccine note' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Vaccine-Note';
 
 
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '4' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-4' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '5' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-5' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'Rabies vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Rabies' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'Td vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Tetanus toxoid(TD)' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'DPT-HepB-Hib' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-DPT' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'BCG vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-BCG ' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'OPV' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-OPV' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'FIPV vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-FIPV' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'PCV' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-PCV' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'Rota vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Rota' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'Measles/rubella' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Measles/rubella' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'JE' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-JE' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'Hepatitis B' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Hepatitis B' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
-UPDATE concept_name SET NAME= 'Vaccine note' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine note' AND concept_name_type='FULLY_SPECIFIED limit 1') a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '4' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-4' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '5' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-5' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'Rabies vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Rabies' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'Td vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Tetanus toxoid(TD)' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'DPT-HepB-Hib' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-DPT' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'BCG vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-BCG ' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'OPV' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-OPV' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'FIPV vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-FIPV' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'PCV' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-PCV' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'Rota vaccine' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Rota' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'Measles/rubella' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Measles/rubella' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'JE' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-JE' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '1' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-1' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '2' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-2' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= '3' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Number-3' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'Hepatitis B' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine-Hepatitis B' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+UPDATE concept_name SET NAME= 'Vaccine note' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Vaccine note' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
