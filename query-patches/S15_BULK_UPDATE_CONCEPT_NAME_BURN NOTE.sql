@@ -5,6 +5,8 @@ REVIEWED BY: DIPAK,SURUCHI,LAXMAN
 DATE : 20TH NOVEMBER, 2018
 */
 
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by) SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Sepsis NOS' ;
+
 
 UPDATE concept_name SET NAME= 'Burn note-Day of presentation' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Burn Note-Day of presentation';
 UPDATE concept_name SET NAME= 'Referred in' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Referred In';

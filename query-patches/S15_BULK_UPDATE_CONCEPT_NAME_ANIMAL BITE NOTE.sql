@@ -137,3 +137,5 @@ UPDATE concept_name SET NAME= 'Name of the service provider' WHERE concept_name_
 UPDATE concept_name SET NAME= 'History of animal (for cat/dog only)' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Animal bite-History of animal' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
 UPDATE concept_name SET NAME= 'Treatment (only for PCEC)' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Animal bite-Treatment (only for PCEC)' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
 UPDATE concept_name SET NAME= 'Animal bite' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Animal bite note' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+
+

@@ -7,6 +7,64 @@ DATE : 20TH NOVEMBER, 2018
 
 
 
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'TRUE' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'FALSE' ;
+
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Previous C-section' ;
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Hepatitis B' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Hepatitis C' ;
+
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Chronic hypertension in pregnancy' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Pre-existing diabetes' ;
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Syphilis Positive' ;
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Ectopic Pregnancy' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Antepartum Haemorrhage' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Abortion Complication' ;
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Not present' ;
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Positive' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Negative' ;
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Positive' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Negative' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Unknown' ;
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Positive' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Negative' ;
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Syphilis NOS' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by)
+     SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by  FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'ANC' ;
+	 
+
+
+
 UPDATE concept_name SET NAME= '2nd month' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='2nd month';
 UPDATE concept_name SET NAME= '3rd month' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='3rd month';
 UPDATE concept_name SET NAME= '4th month' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='4th month';

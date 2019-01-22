@@ -4,6 +4,17 @@ CREATED BY:  DIWASH
 REVIEWED BY: DIPAK,SURUCHI,LAXMAN
 DATE : 20TH NOVEMBER, 2018
 */
+
+
+
+
+
+
+
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by) SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Expected' ;
+INSERT INTO concept_name (concept_id,name,locale,locale_preferred,creator,date_created,concept_name_type,voided,voided_by,date_voided,void_reason,uuid, date_changed,changed_by) SELECT concept_id,name,locale,locale_preferred, creator,date_created,'SHORT', voided,voided_by,date_voided,void_reason,UUID(),date_changed,changed_by FROM concept_name WHERE concept_name_type ='FULLY_SPECIFIED' and concept_name = 'Death Note' ;
+
+
 UPDATE concept_name SET NAME= 'Death note-Pronounced death date and time' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Death Note-Pronounced death date and time';
 UPDATE concept_name SET NAME= 'Death note-Provider name' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Death Note-Provider name';
 UPDATE concept_name SET NAME= 'Death note-Brought dead' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Death Note-Brought dead';
@@ -55,3 +66,4 @@ UPDATE concept_name SET NAME= 'Medico legal / police case' WHERE concept_name_ty
 UPDATE concept_name SET NAME= 'Family / next-of-kin aware of death' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Death Note-Family aware of death' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
 UPDATE concept_name SET NAME= 'MDGP notified at' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Death Note-MDGP notified at' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
 UPDATE concept_name SET NAME= 'Death note' WHERE concept_name_type='SHORT' AND CONCEPT_ID=(SELECT a.CONCEPT_ID FROM (select * from concept_name WHERE NAME = 'Death note' AND concept_name_type='FULLY_SPECIFIED' limit 1) a );
+
