@@ -154,6 +154,8 @@ UPDATE concept_name SET NAME= 'CBIMNCI <2-Feeding problem' WHERE concept_name_ty
 UPDATE concept_name SET NAME= 'CBIMNCI <2-Counseling' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness, 2months, Counseling';
 UPDATE concept_name SET NAME= 'CBIMNCI <2-Treatment' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness - Treatment';
 UPDATE concept_name SET NAME= 'CBIMNCI (<2 months child)' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='CBIMNCI (<2 months child)';
+UPDATE concept_name SET NAME= 'CBIMNCI <2-Counseling' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness,  2months,  Counseling';
+
 
 
 
