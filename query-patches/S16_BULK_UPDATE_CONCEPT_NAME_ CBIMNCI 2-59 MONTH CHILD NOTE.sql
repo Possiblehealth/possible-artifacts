@@ -121,6 +121,12 @@ UPDATE concept_name SET NAME= 'CBIMNCI 2 to 59-Nutrition status' WHERE concept_n
 UPDATE concept_name SET NAME= 'CBIMNCI 2 to 59-Counselling' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness, 5years, Counseling';
 UPDATE concept_name SET NAME= 'CBIMNCI 2 to 59-Treatment' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness, Treatment 2-59';
 UPDATE concept_name SET NAME= 'CBIMNCI (2 to 59 months child)' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='CBIMNCI (2 to 59 months child)';
+UPDATE concept_name SET NAME= 'Childhood illness-Diarrhoea'  WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness,  Diarrhoea';
+UPDATE concept_name SET NAME= 'CBIMNCI 2 to 59-Acute respiratory infection' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness,  Acute Respiratory Infection';
+UPDATE concept_name SET NAME= 'CBIMNCI 2 to 59-Fever' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness,  Fever';
+UPDATE concept_name SET NAME= 'CBIMNCI 2 to 59-Ear infection' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness,  Ear infection';
+UPDATE concept_name SET NAME= 'CBIMNCI 2 to 59-Nutrition status' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness,  Nutrition status';
+UPDATE concept_name SET NAME= 'CBIMNCI 2 to 59-Counselling' WHERE concept_name_type='FULLY_SPECIFIED' AND NAME='Childhood Illness,  5years, Counseling';
 
 
 
